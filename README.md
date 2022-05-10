@@ -1,7 +1,8 @@
 # Cryptanalysis of K-Cipher
 
 ----------
-###Structure of the project
+### Structure of the project
+
 This project is a c++ implementation of differential cryptanalysis attack to [K-Cipher](https://eprint.iacr.org/2020/030.pdf).
 The project contains the following files;    
 * `KCipher.h`: Includes headers for the functions of K-Cipher.
@@ -10,7 +11,7 @@ The project contains the following files;
 * `CMakeLists.txt`: cmake file for running the code
 _____________________
    
-###Run the attack
+### Run the attack
 To run the attack, run the following commands in the root directory of the project:
 ```bash
 cmake .
